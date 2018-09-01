@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.2.61'
+}
+
+group 'mirea'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+apply plugin: 'application'
+mainClassName = 'likeKt'
+
+repositories {
+    jcenter()
+    maven { url "https://dl.bintray.com/kotlin/ktor" }
+    mavenCentral()
+}
+
+dependencies {
+    //compile "org.slf4j:slf4j-simple:1.7.25"
+    compile 'com.vk.api:sdk:0.5.12'
+    compile "io.ktor:ktor-server-jetty:0.9.3"
+    compile "ch.qos.logback:logback-classic:1.2.1"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    //implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:0.25.0'
+}
+
+kotlin { experimental { coroutines "enable" } }
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}

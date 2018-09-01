@@ -1,0 +1,2 @@
+web: kotlinc src/main/kotlin/Example.kt -include-runtime -d Example.jar
+web: java -jar Example.jar
