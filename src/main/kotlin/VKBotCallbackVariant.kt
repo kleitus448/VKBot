@@ -1,6 +1,7 @@
 import com.sun.net.httpserver.HttpExchange
 import com.sun.net.httpserver.HttpHandler
 import com.sun.net.httpserver.HttpServer
+import com.sun.tools.internal.jxc.ap.Const
 import org.apache.commons.io.IOUtils
 import java.io.File
 import java.io.FileReader
@@ -10,23 +11,20 @@ import java.util.*
 
 
 class VkHandler() : HttpHandler {
-    val groupId : String?
     val accessToken : String?
 
     init {
-        val name = "src/main/resources/config.properties"
         val properties = Properties()
-        properties.load(FileReader(File(name)))
-        this.groupId = properties.getProperty("groupId")
+        properties.load(FileReader(File(Consts.config_dir)))
         this.accessToken = properties.getProperty("accessToken")
     }
     
     override fun handle(exchange: HttpExchange) {
         val json = IOUtils.toString(exchange.requestBody, Charsets.UTF_8)
         println(json)
-        Parser().parse(json)
+        Parser().parse(json, accessToken)
         val builder = StringBuilder()
-        val response = Consts.ok
+        val response = Consts.OK
         exchange.sendResponseHeaders(200,response.toByteArray(Charsets.UTF_8).size.toLong())
         //http@ //46.188.5.29:8079/
         exchange.responseBody.write(response.toByteArray(Charsets.UTF_8))
