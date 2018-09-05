@@ -2,6 +2,7 @@ package Consts
 
 //CONFIG
 const val config_dir = "src/main/resources/config.properties"
+const val ACCESS_TOKEN = "accessToken"
 
 //MESSAGE ATTRIBUTES
 const val DATE = "date"
@@ -27,3 +28,5 @@ const val DEFAULT_ANSWER = "We are glad to see you"
 const val WANNA_PLAY = "Хочу играть"
 const val SPECIAL_REQUEST = "Fuck yourself bitch"
 
+//
+const val FIRST_CONNECT = true

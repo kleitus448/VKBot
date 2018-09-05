@@ -15,7 +15,7 @@ class VkHandler() : HttpHandler {
     init {
         val properties = Properties()
         properties.load(FileReader(File(Consts.config_dir)))
-        this.accessToken = properties.getProperty("accessToken")
+        this.accessToken = properties.getProperty(Consts.ACCESS_TOKEN)
     }
     
     override fun handle(exchange: HttpExchange) {

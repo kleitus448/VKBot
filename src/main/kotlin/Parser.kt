@@ -16,22 +16,27 @@ class Parser {
         }
     }
     
-    fun keyboardConstructor(): String? {
-        val name = "src/main/resources/keyboard.json"
+    fun keyboardConstructor(nameBoard :String): String? {
+        val name = "src/main/resources/${nameBoard}.json"
         val result = FileReader(File(name)).readLines()
         return result.fold("") {acc, i -> acc + i}.replace(" ", "")
     }
-
-
 }
-fun sendMessage(text:String, id:JsonElement, accessToken: String, music: String =""){
-    val reqUrl = "https://api.vk.com/method/messages.send?" +
-            "user_ids=${id}" +
-            "&message=${text}" +
-            "&attachment=${music}"+
-            "&v=5.52" +
-            "&access_token=${accessToken}" +
-            "&keyboard=${Parser().keyboardConstructor().toString()}"
+
+//ОТПРАВКА СООБЩЕНИЯ
+fun sendMessage(text:String, id:JsonElement, accessToken: String, music: String ="", isFirstConnect: Boolean = false){
+    var keyboard: String
+    if (isFirstConnect){
+        keyboard = "keyboard"
+    }else{keyboard = "started_keyboard"}
+
+    val reqUrl =    "https://api.vk.com/method/messages.send?" +
+                    "user_ids=${id}" +
+                    "&message=${text}" +
+                    "&attachment=${music}"+
+                    "&v=5.52" +
+                    "&access_token=${accessToken}" +
+                    "&keyboard=${Parser().keyboardConstructor(keyboard).toString()}"
     println(reqUrl)
     URL(reqUrl).openStream().close()
 }
@@ -49,7 +54,6 @@ class Switcher{
                 when(text){
                     Consts.WANNA_PLAY -> {sendMessage(forRequests(Consts.WANNA_PLAY_ANSWER_MESSAGE),obj.get(Consts.FROM_ID),accessToken)}
                     Consts.SPECIAL_REQUEST -> {sendMessage(forRequests("No, fuck you, letherman"),obj.get(Consts.FROM_ID),accessToken, "audio107563776_456239097")}
-
                 }
                 sendMessage(forRequests(Consts.DEFAULT_ANSWER),obj.get(Consts.FROM_ID), accessToken)
             }
@@ -57,7 +61,7 @@ class Switcher{
                 when(obj.get("join_type").asString){
                     Consts.REQUEST -> {sendMessage(Consts.WELCOME_MESSAGE_REQUEST.replace(" ","%20"),obj.get(Consts.USER_ID),accessToken)}
                     Consts.APPROVED -> {sendMessage(Consts.WELCOME_MESSAGE_APPROVED,obj.get(Consts.USER_ID),accessToken)}
-                    Consts.JOIN -> {sendMessage("Привет",obj.get(Consts.USER_ID),accessToken)}
+                    Consts.JOIN -> {sendMessage("Привет",obj.get(Consts.USER_ID),accessToken,isFirstConnect = true)}
                 }
             }
         }
