@@ -8,16 +8,18 @@ import java.net.InetAddress
 import java.net.InetSocketAddress
 import java.util.*
 
-
+//КЛАСС, ОТВЕЧАЮЩИЙ ЗА ПРОСЛУШКУ СЕРВЕРА
 class VkHandler() : HttpHandler {
-    val accessToken : String
+    private val accessToken : String
 
     init {
+        //Получение данных из config файла
         val properties = Properties()
-        properties.load(FileReader(File(Consts.config_dir)))
+        properties.load(FileReader(File(Consts.CONFIG_DIR)))
         this.accessToken = properties.getProperty(Consts.ACCESS_TOKEN)
     }
-    
+
+    //Прослушка уведомлений с Callback сервера
     override fun handle(exchange: HttpExchange) {
         val json = IOUtils.toString(exchange.requestBody, Charsets.UTF_8)
         println(json)
@@ -31,7 +33,6 @@ class VkHandler() : HttpHandler {
 
 fun main(args: Array<String>) {
     val httpserver = HttpServer.create()
-    //val addr = InetAddress.getByName("192.168.1.38")
     val addr = InetAddress.getLocalHost()
     print("${addr.hostAddress}, ${addr.hostName}")
     httpserver.bind(InetSocketAddress(addr, 80), 0)
