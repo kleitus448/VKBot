@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/VKBot.iml" filepath="$PROJECT_DIR$/.idea/VKBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VKBot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/VKBot_main.iml" group="VKBot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VKBot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/VKBot_test.iml" group="VKBot" />
+    </modules>
+  </component>
+</project>

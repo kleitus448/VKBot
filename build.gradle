@@ -23,6 +23,7 @@ dependencies {
     compile "io.ktor:ktor-server-jetty:0.9.3"
     compile "ch.qos.logback:logback-classic:1.2.1"
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
     //implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:0.25.0'
 }
 

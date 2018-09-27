@@ -1,8 +1,20 @@
 package Consts
 
+import java.io.File
+import java.io.FileReader
+import java.util.*
+
 //CONFIG
-const val config_dir = "src/main/resources/config.properties"
-const val ACCESS_TOKEN = "accessToken"
+private fun getProperty(type: String): String {
+    val properties = Properties()
+    properties.load(FileReader(File("src/main/resources/config.properties")))
+    return properties.getProperty(type)
+}
+
+val ACCESS_TOKEN = getProperty("accessToken")
+val URL_WANNA_PLAY = getProperty("url_wanna_play")
+val URL_RECORDS = getProperty("url_records")
+val GROUP_ID = getProperty("groupId")
 
 //MESSAGE ATTRIBUTES
 const val DATE = "date"
@@ -22,11 +34,20 @@ const val WELCOME_MESSAGE_REQUEST = "Привет. Мы рады, что ты р
 const val WELCOME_MESSAGE_APPROVED = "ddddd"
 const val WANNA_PLAY_ANSWER_MESSAGE = "Выбери игру из списка. Нажми на соответствующую кнопку."
 const val DEFAULT_ANSWER = "We are glad to see you"
-
+const val SPECIAL_ANSWER = "No, fuck you, leather man"
 
 //COMANDS BY USER
 const val WANNA_PLAY = "Хочу играть"
 const val SPECIAL_REQUEST = "Fuck yourself bitch"
 
-//
+//ATTACHMENTS SECTION
+const val SPECIAL_ATTACH = "audio-170533307_456239019"
+const val KEYBOARD = "keyboard"
+const val KEYBOARD_RESULT = "keyboard_result"
+const val STARTED_KEYBOARD = "started_keyboard"
+
+//FLAGS FOR CHECK
 const val FIRST_CONNECT = true
+
+
+
