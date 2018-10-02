@@ -47,6 +47,18 @@
                 <item name="VKBot" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="VKBot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="VKBot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -58,64 +70,71 @@
     <session id="422188213">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.53" value="2" />
-          <entry key="project.open.time.54" value="2" />
+          <entry key="project.open.time.54" value="3" />
           <entry key="project.open.time.57" value="2" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="floo" value="1" />
-          <entry key="flooignore" value="2" />
+          <entry key="flooignore" value="3" />
           <entry key="gitignore" value="1" />
-          <entry key="gradle" value="3" />
-          <entry key="java" value="23" />
-          <entry key="json" value="3" />
-          <entry key="kt" value="27" />
-          <entry key="properties" value="4" />
+          <entry key="gradle" value="5" />
+          <entry key="gradlew" value="2" />
+          <entry key="java" value="26" />
+          <entry key="json" value="6" />
+          <entry key="kt" value="39" />
+          <entry key="properties" value="10" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="23" />
-          <entry key="JSON" value="3" />
-          <entry key="Kotlin" value="27" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Properties" value="4" />
+          <entry key="Groovy" value="5" />
+          <entry key="JAVA" value="26" />
+          <entry key="JSON" value="6" />
+          <entry key="Kotlin" value="39" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Properties" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="16" />
           <entry key="flooignore" value="18" />
-          <entry key="gradle" value="123" />
+          <entry key="gradle" value="476" />
           <entry key="java" value="29" />
-          <entry key="json" value="12" />
-          <entry key="kt" value="5298" />
-          <entry key="properties" value="75" />
+          <entry key="json" value="71" />
+          <entry key="kt" value="6363" />
+          <entry key="properties" value="138" />
           <entry key="txt" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="123" />
+          <entry key="Groovy" value="476" />
           <entry key="JAVA" value="29" />
-          <entry key="JSON" value="12" />
-          <entry key="Kotlin" value="5298" />
-          <entry key="PLAIN_TEXT" value="81" />
-          <entry key="Properties" value="75" />
+          <entry key="JSON" value="71" />
+          <entry key="Kotlin" value="6363" />
+          <entry key="PLAIN_TEXT" value="97" />
+          <entry key="Properties" value="138" />
         </counts>
       </usages-collector>
     </session>
@@ -123,58 +142,56 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Parser.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="106" column="83" lean-forward="true" selection-start-line="106" selection-start-column="83" selection-end-line="106" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/KeyboardConstructor.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="246">
+              <caret line="13" column="65" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="65" />
               <folding>
-                <element signature="e#28#258#0" expanded="true" />
+                <element signature="e#28#193#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Test.kt">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/JsonObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="201">
+              <caret line="193" column="12" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
+              <folding>
+                <element signature="e#6095#6096#0" expanded="true" />
+                <element signature="e#6147#6148#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/VKBotCallbackVariant.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="156">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
               <folding>
-                <element signature="e#0#289#0" expanded="true" />
+                <element signature="e#0#224#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/VkBotLongPollVariant.kt">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/JsonArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Const.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding>
-                <element signature="e#16#80#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -182,51 +199,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="102">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/keyboard_results.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/games.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="170">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/DataOutputStream.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/started_keyboard.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-              <folding>
-                <element signature="e#1266#1267#0" expanded="true" />
-                <element signature="e#1292#1293#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/net/URL.java">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7242">
-              <caret line="468" column="11" selection-start-line="468" selection-start-column="11" selection-end-line="468" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Parser.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#309#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -256,6 +262,10 @@
       <find>setReq</find>
       <find>accessToken</find>
       <find>5.52</find>
+      <find>gradle</find>
+      <find>print</find>
+      <find>pizda</find>
+      <find>keyboardco</find>
     </findStrings>
     <replaceStrings>
       <replace>JOIN</replace>
@@ -269,6 +279,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>E:\VKBot\build\classes</dir>
+      <dir>E:\VKBot</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -496,9 +507,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6145842876413" />
+        <entry key="$PROJECT_DIR$" value="6149981157752" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1319728820" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3407512079" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="885998519" />
       </map>
@@ -720,15 +731,19 @@
         <option value="$PROJECT_DIR$/src/main/resources/keyboard.json" />
         <option value="$PROJECT_DIR$/src/main/kotlin/ll.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Test.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/VKBotCallbackVariant.kt" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/VkBotLongPollVariant.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/Const.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/kotlin/like.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/dd.java" />
+        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/VkBotLongPollVariant.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/config1.properties" />
+        <option value="$PROJECT_DIR$/src/main/templates/games.json" />
+        <option value="$PROJECT_DIR$/src/not for compile/VkBotLongPollVariant.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/Const.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/KeyboardConstructor.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Parser.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/VKBotCallbackVariant.kt" />
       </list>
     </option>
   </component>
@@ -739,8 +754,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="149" />
-    <option name="y" value="78" />
+    <option name="x" value="790" />
+    <option name="y" value="-21" />
     <option name="width" value="863" />
     <option name="height" value="962" />
   </component>
@@ -750,12 +765,32 @@
         <expanded-state>
           <State />
           <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
             <id>PHP</id>
           </State>
           <State>
             <id>Quality toolsPHP</id>
           </State>
+          <State>
+            <id>Reactor</id>
+          </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -776,19 +811,19 @@
             <path>
               <item name="VKBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="VKBot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VKBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="VKBot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="distributions" type="462c0819:PsiDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="buildOutputCleanup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VKBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="VKBot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="vcsWorkingDirs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VKBot" type="b2602c69:ProjectViewProjectNode" />
@@ -798,7 +833,8 @@
             <path>
               <item name="VKBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="VKBot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VKBot" type="b2602c69:ProjectViewProjectNode" />
@@ -829,37 +865,62 @@
               <item name="VKBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="VKBot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="VKBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VKBot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="not for compile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Local Unit Tests'; set:test:*..*; class com.android.tools.idea.testartifacts.scopes.TestArtifactCustomScopeProvider$UnitTestsScope">
+          <expand>
+            <path>
+              <item name="VKBot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="VKBot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="VKBot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="VKBot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="VKBot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="VKBot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="VKBot_main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="VKBot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="VKBot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="VKBot_main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538042314579" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538462749757" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15264188" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\VKBot\src\main\resources" />
+      <recent name="E:\VKBot\src\not for compile" />
       <recent name="E:\VKBot\src\main" />
       <recent name="E:\VKBot\src" />
     </key>
@@ -889,21 +950,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VKBot [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="VKBot [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LlKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="VKBot_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="LlKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -916,19 +1000,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="ParserKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleHttpServer" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="VKBot_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SimpleHttpServer" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -979,23 +1050,23 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.VKBotCallbackVariantKt" />
-      <item itemvalue="Kotlin.SimpleHttpServer" />
-      <item itemvalue="Kotlin.LlKt" />
       <item itemvalue="Kotlin.ParserKt" />
       <item itemvalue="Kotlin.TestKt" />
+      <item itemvalue="Gradle.VKBot [run]" />
+      <item itemvalue="Gradle.VKBot [build]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.VKBotCallbackVariantKt" />
+        <item itemvalue="Gradle.VKBot [run]" />
+        <item itemvalue="Gradle.VKBot [build]" />
         <item itemvalue="Kotlin.ParserKt" />
         <item itemvalue="Kotlin.TestKt" />
-        <item itemvalue="Kotlin.LlKt" />
-        <item itemvalue="Kotlin.SimpleHttpServer" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Daniel\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1022,6 +1093,12 @@
       <workItem from="1537899980981" duration="12105000" />
       <workItem from="1537987618101" duration="6091000" />
       <workItem from="1538040526443" duration="1614000" />
+      <workItem from="1538073502099" duration="7686000" />
+      <workItem from="1538148488860" duration="10556000" />
+      <workItem from="1538332598989" duration="1560000" />
+      <workItem from="1538424506441" duration="4858000" />
+      <workItem from="1538460096486" duration="751000" />
+      <workItem from="1538460996769" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="New release">
       <created>1535831291061</created>
@@ -1062,7 +1139,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82846000" />
+    <option name="totallyTimeSpent" value="110009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1077,7 +1154,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15573333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17173333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1085,27 +1162,27 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7546667" weight="0.3802817" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4992" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7493333" weight="0.3802817" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49973333" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49973333" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989339" weight="0.38678223" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5104" side_tool="true" visible="true" weight="0.32394367" />
-      <window_info anchor="bottom" id="Statistic" order="10" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4992" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.66613334" weight="0.41603467" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.25066668" side_tool="true" visible="true" weight="0.41495124" />
+      <window_info anchor="bottom" id="Statistic" order="10" show_stripe_button="false" sideWeight="0.49813333" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" sideWeight="0.4989339" weight="0.32936078" />
-      <window_info anchor="bottom" id="Floobits" order="13" sideWeight="0.4896" visible="true" weight="0.32394367" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.43466666" weight="0.41495124" />
+      <window_info anchor="bottom" id="Floobits" order="13" sideWeight="0.64533335" weight="0.33802816" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.43253332" weight="0.41495124" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.49919742" weight="0.16151386" />
+      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.49919742" visible="true" weight="0.09013333" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1154,9 +1231,6 @@
           <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/net/InetSocketAddress.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1214,20 +1288,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/keyboard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.flooignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/keyboard.json" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/ll.kt" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio/0.9.3/f07025a4584422b4aeffb3e2afd2218e90c5c7b4/ktor-http-cio-0.9.3-sources.jar!/io/ktor/http/cio/Pipeline.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -1254,13 +1315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7259">
           <caret line="465" column="16" selection-start-line="465" selection-start-column="16" selection-end-line="465" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/started_keyboard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1312,62 +1366,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14994">
           <caret line="959" column="19" selection-start-line="959" selection-start-column="19" selection-end-line="959" selection-end-column="19" />
-          <folding>
-            <element signature="e#36171#36172#0" expanded="true" />
-            <element signature="e#36214#36215#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/dd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/VkBotLongPollVariant.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Const.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#16#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/DataOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-          <folding>
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1378,39 +1386,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/KeyboardConstructor.kt">
+    <entry file="file://$PROJECT_DIR$/.gradle/workspace-id.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Test.kt" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="374">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="121" column="36" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config1.properties" />
+    <entry file="file://$PROJECT_DIR$/.flooignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/dd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/not for compile/VkBotLongPollVariant.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#28#258#0" expanded="true" />
+            <element signature="e#0#247#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Test.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Const.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="272">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#16#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/VKBotCallbackVariant.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/keyboard_results.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/games.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/started_keyboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/JsonObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="193" column="12" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
           <folding>
-            <element signature="e#0#289#0" expanded="true" />
+            <element signature="e#6095#6096#0" expanded="true" />
+            <element signature="e#6147#6148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/JsonArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/KeyboardConstructor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="13" column="65" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="65" />
+          <folding>
+            <element signature="e#28#193#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Parser.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="234">
+          <caret line="106" column="83" lean-forward="true" selection-start-line="106" selection-start-column="83" selection-end-line="106" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/VKBotCallbackVariant.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding>
-            <element signature="e#0#309#0" expanded="true" />
+            <element signature="e#0#224#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1494,7 +1600,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: com.google.code.gson:gson:2.8.1</last-edited>
+          <last-edited>Gradle: ch.qos.logback:logback-classic:1.2.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

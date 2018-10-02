@@ -1,13 +1,41 @@
 {
   "one_time": true,
   "buttons": [
-    [{
-      "action": {
-        "type": "text",
-        "payload": "{\"button\": \"1\"}",
-        "label": "Хочу играть"
+    [
+      {
+        "action": {
+          "type": "text",
+          "payload": "{\"Хочу%20играть\": \"1\"}",
+          "label": "Хочу%20играть"
+        },
+        "color": "positive"
       },
-      "color": "positive"
-    }]
+      {
+        "action": {
+          "type": "text",
+          "payload": "{\"Рекорды\":\"1\"}",
+          "label": "Рекорды"
+        },
+        "color": "positive"
+      }
+    ],
+    [
+      {
+        "action": {
+          "type": "text",
+          "payload": "{\"Номер%20в%20очереди\":\"1\"}",
+          "label": "Номер%20в%20очереди"
+        },
+        "color": "positive"
+      },
+      {
+        "action": {
+          "type": "text",
+          "payload": "{\"Выйти%20из%20очереди\":\"1\"}",
+          "label": "Выйти%20из%20очереди"
+        },
+        "color": "positive"
+      }
+    ]
   ]
 }
